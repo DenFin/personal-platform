@@ -1,0 +1,18 @@
+input
+    font-size: inherit
+    font-family: inherit
+    padding: .5em
+    border: 1px solid #ccc
+    margin-bottom: 2rem
+    display: block
+ 
+    &:focus
+        outline: none
+        border: 1px solid $secondaryColor
+
+input[type="checkbox"]
+    appearance: none !important 
+    webkit-appearance: none !important
+    margin: 0
+    &:checked
+        background: $secondaryColor
