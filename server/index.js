@@ -1,10 +1,15 @@
 const express = require('express');
 const app = express();
+const passport = require('passport');
 const db = require('./config/db');
 const dbInit = require('./config/db').dbInit
 
 require('./config')(app, express)
 require('./routes')(app)
+
+
+app.use(passport.initialize());
+app.use(passport.session());
 
 // SET API ROUTES
 const login = require('./routes/auth/login');

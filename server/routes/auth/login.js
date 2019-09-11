@@ -1,14 +1,11 @@
 const express = require('express');
 const router = express.Router();
+const passport = require('passport');
 const UserDAO = require('./../../dao/UserDAO');
 
 
 
-    router.post('/', async (req, res) => {
-        console.log("THIS IS THE auth/login route");
-        let loginData = req.body
-        console.log(loginData)
-    })
+    router.post('/', passport.authenticate('local-login'), userResponse);
 
     
     module.exports = router;
