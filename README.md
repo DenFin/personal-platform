@@ -1,7 +1,6 @@
 # personal-platform
 This will be my personal platform. This project is meant to be a learning project (like every project)
 
-
 ## Backend
 
 ### Routes
@@ -13,3 +12,11 @@ This will be my personal platform. This project is meant to be a learning projec
 
 - [ ] Login with passport.js
 - [ ] Redirect to dashboard 
+
+
+## Frontend
+
+### Views
+
+- [x] home
+- [x] login
