@@ -11,4 +11,4 @@ This will be my personal platform. This project is meant to be a learning projec
 
 ### Services
 
-- [] Login with passport.js 
+- [-] Login with passport.js 
