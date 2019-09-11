@@ -11,4 +11,5 @@ This will be my personal platform. This project is meant to be a learning projec
 
 ### Services
 
-- [o] Login with passport.js 
+- [ ] Login with passport.js
+- [ ] Redirect to dashboard 
