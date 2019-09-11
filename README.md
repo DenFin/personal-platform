@@ -6,5 +6,5 @@ This will be my personal platform. This project is meant to be a learning projec
 
 ### Routes
 
-[x] GET /api/user
-[x] POST /auth/login
+- [x] GET /api/user
+- [x] POST /auth/login
